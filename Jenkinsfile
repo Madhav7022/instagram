@@ -5,7 +5,7 @@ pipeline {
     }
 
     stages {
-        stage('Hello') {
+        stage('Create Jar File') {
             steps {
                 sh 'mvn clean package'
             }
